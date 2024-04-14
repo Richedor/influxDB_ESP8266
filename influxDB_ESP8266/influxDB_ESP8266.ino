@@ -9,7 +9,6 @@
  */
 
 #elif defined(ESP8266)
-  // Inclusion de la bibliothèque ESP8266WiFiMulti pour la gestion de plusieurs points d'accès Wi-Fi (pour ESP8266)
   #include <ESP8266WiFiMulti.h>
   ESP8266WiFiMulti wifiMulti;
   #define DEVICE "ESP8266"  // Définition du nom de l'appareil (ESP8266)
