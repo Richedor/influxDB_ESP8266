@@ -11,7 +11,6 @@
 #if defined(ESP32)
   // Inclusion de la bibliothèque WiFiMulti pour la gestion de plusieurs points d'accès Wi-Fi (pour ESP32)
   #include <WiFiMulti.h>
-  WiFiMulti wifiMulti;
 #elif defined(ESP8266)
   // Inclusion de la bibliothèque ESP8266WiFiMulti pour la gestion de plusieurs points d'accès Wi-Fi (pour ESP8266)
   #include <ESP8266WiFiMulti.h>
